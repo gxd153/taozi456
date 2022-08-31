@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx7f4b56d7ebef72de",
+# 公众号appSecret
+"app_secret": "8effc4f5bb10f04a34bd9c857a30d0fb",
+# 模板消息id
+"template_id": "x9l4EPa2Yoj8CCNvK_Gd4DOS8r9bw70rhHC0auco5r0",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["oQqdN5gubqaj644nk-fF6G6pLDLg", "oQqdN5iK7FgdFZ8Qc_F2y_on95Wc", "oQqdN5l9OsNHl9X5vKvUV2-3QLR4"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "7e5eedf6db584f94b56bd0ddb5f585ce",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "六盘水市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "桃子🍑", "birthday": "2002-05-25"},
+# 生日2
+"birthday2": {"name": "傻逼狗🐕", "birthday": "2002-03-18"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2018-07-01",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "",
+# 金句英文
+"note_en": ""
+}
